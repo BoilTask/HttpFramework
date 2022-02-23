@@ -1,0 +1,7 @@
+_:
+  Import: [Common]
+
+Login:
+  id: int32
+  name: string
+  url: string

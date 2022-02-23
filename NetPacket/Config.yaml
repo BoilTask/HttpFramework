@@ -1,0 +1,15 @@
+# Net定义文件
+NetDefFile: ../../Project/HttpGame/Source/HttpGame/Def/NetDef.h
+# 标识消息头范围
+NetDefStart: //Don't edit the following content.NET_DEF_START
+NetDefEnd: //Don't edit the above content.NET_DEF_END
+
+# Request 发送消息包定义
+RequestConfigPath: ../Request
+RequestExportPath: ../../Project/HttpGame/Source/HttpGame/Net/Request
+NetRequestFile: ../../Project/HttpGame/Source/HttpGame/Net/Request/NetRequest.h
+
+# Respon 接收消息包定义
+ResponseConfigPath: ../Response
+ResponseExportPath: ../../Project/HttpGame/Source/HttpGame/Net/Response
+NetResponseFile: ../../Project/HttpGame/Source/HttpGame/Net/Response/NetResponse.h

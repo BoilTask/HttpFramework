@@ -1,0 +1,12 @@
+_:
+  Import: []
+
+Status:
+  code: int32
+  time: int64
+
+Entity:
+
+StatusMessage:
+  status: CommonStatus
+  entity: CommonEntity

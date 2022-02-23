@@ -1,0 +1,26 @@
+Test:
+  Method: POST
+  Url: /test/test
+  Data:
+    bool_test: bool
+    int32_test: int32
+    int64_test: int64
+    float_test: float
+    string_test: string
+    vector_bool_test: bool[]
+    vector_int32_test: int32[]
+    vector_int64_test: int64[]
+    vector_float_test: float[]
+    vector_string_test: string[]
+
+Login:
+  Method: POST
+  Url: /api/login
+  Server: http://test.test.com
+  Data:
+    username: string
+    password: string
+
+Logout:
+  Method: GET
+  Url: /api/logout
