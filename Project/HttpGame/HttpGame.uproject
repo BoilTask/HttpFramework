@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2D56AF1C-4C6E-E177-2AD8-448D5BBC9D19}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "HttpGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
